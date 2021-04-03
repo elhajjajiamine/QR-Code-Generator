@@ -13,6 +13,8 @@
 		10DC27D326188E84008B96EF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 10DC27D226188E84008B96EF /* Preview Assets.xcassets */; };
 		10DC27DE26188E84008B96EF /* QR_Code_GeneratorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10DC27DD26188E84008B96EF /* QR_Code_GeneratorTests.swift */; };
 		10DC27E926188E84008B96EF /* QR_Code_GeneratorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10DC27E826188E84008B96EF /* QR_Code_GeneratorUITests.swift */; };
+		10DC28022618AFE1008B96EF /* QRCodeGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10DC28012618AFE1008B96EF /* QRCodeGenerator.swift */; };
+		10DC28072618B011008B96EF /* ImageSaver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10DC28062618B011008B96EF /* ImageSaver.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +47,8 @@
 		10DC27E426188E84008B96EF /* QR Code GeneratorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "QR Code GeneratorUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		10DC27E826188E84008B96EF /* QR_Code_GeneratorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QR_Code_GeneratorUITests.swift; sourceTree = "<group>"; };
 		10DC27EA26188E84008B96EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		10DC28012618AFE1008B96EF /* QRCodeGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRCodeGenerator.swift; sourceTree = "<group>"; };
+		10DC28062618B011008B96EF /* ImageSaver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageSaver.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +104,8 @@
 				10DC27CF26188E84008B96EF /* Assets.xcassets */,
 				10DC27D426188E84008B96EF /* Info.plist */,
 				10DC27D126188E84008B96EF /* Preview Content */,
+				10DC28012618AFE1008B96EF /* QRCodeGenerator.swift */,
+				10DC28062618B011008B96EF /* ImageSaver.swift */,
 			);
 			path = "QR Code Generator";
 			sourceTree = "<group>";
@@ -260,7 +266,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				10DC27CE26188E83008B96EF /* ContentView.swift in Sources */,
+				10DC28022618AFE1008B96EF /* QRCodeGenerator.swift in Sources */,
 				10DC27CC26188E83008B96EF /* QR_Code_GeneratorApp.swift in Sources */,
+				10DC28072618B011008B96EF /* ImageSaver.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
